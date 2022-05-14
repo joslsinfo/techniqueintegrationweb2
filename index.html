@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
+
   <head>
     <title>Bonjour le monde!</title>
   </head>
@@ -7,7 +8,7 @@
     <header>
       Une belle image
     </header>
-  <nav>
+  <nav aria-label="label">
     <ul>
       <li><a href="/services/">Services</a></li>
       <li><a href="/articles/">Articles</a></li>
@@ -38,7 +39,7 @@
         </tr>
       </table>
       <table>
-        
+<caption aria-labelledby> information pour le tableau</caption>
         <colgroup span="2"></colgroup>
         <colgroup span="2"></colgroup>
         <tr>
@@ -74,7 +75,7 @@
       <form action="mailto:a@a.com" method="post">
         <div>
             <label for="name">Nom :</label>
-            <input type="text" id="name" name="user_name"/>
+            <input type="text" id="name" name="user_name" aria-label=" "/>
         </div>
         <div>
             <label>Courriel :</label>
